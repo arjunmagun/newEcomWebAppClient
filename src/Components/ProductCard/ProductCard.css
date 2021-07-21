@@ -1,0 +1,36 @@
+.productCardContainer{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 20px 0;
+}
+
+.card{
+    margin: 20px 0;
+    background-color: #314e52;
+    color: #E7E6E1;
+    border: none;
+    cursor: pointer;
+}
+
+#productImage{
+    height: 25rem;
+    object-fit: cover;
+}
+
+.cardTitle{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.priceContainer{
+    display: flex;
+}
+
+.priceContainer p{
+    font-weight: 700;
+    margin: 0 10px 0 0;
+}
+
+.marketPriceCard{
+    text-decoration: line-through;
+    color: #E7E6E1;
+}

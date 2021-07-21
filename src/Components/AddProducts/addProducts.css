@@ -1,0 +1,46 @@
+.addproduct{
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+.addproduct form input{
+    width: 100%;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.addproduct form textarea{
+    width: 100%;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.addproduct form button{
+    width: 100%;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#imageForm {
+    display: flex;
+}
+
+#imageForm input{
+    width: 80%;
+}
+
+#imageForm button{
+    width: 3em;
+    margin: auto;
+    height: 50px;
+    border-radius: 50%;
+}

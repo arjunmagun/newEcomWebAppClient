@@ -1,0 +1,128 @@
+.cartContainer{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #314e52;
+}
+
+.cartTitle{
+    font-weight: 600;
+    margin: 15px  0;
+    color: #314e52;
+}
+
+.cartItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.cartImg img{
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.cartDetails p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.quantityController {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantityController button{
+    height: 100%;
+    margin: 0 10px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #314e52;
+    border: none;
+    outline: none;
+}
+
+.amountContainer p{
+    font-size: 1.2rem;
+    font-weight: 600;    
+}
+
+.marketPrice{
+    text-decoration: line-through;
+    color: #314e52;
+}
+
+.deleteItem{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.shipping{
+    font-size: 1.5rem;
+}
+
+.savedAmount{
+    font-size: 1.5rem;
+    border-bottom: 1px solid #3c5f64;
+    padding-bottom: 20px;
+}
+
+.savedAmount span{
+    text-decoration: line-through;
+}
+
+.totalAmount{
+    font-size: 1.5rem;
+    border-bottom: 1px solid #3c5f64;
+    padding-bottom: 20px;
+}
+
+.optionSelector{
+    margin-bottom: 30px;
+}
+
+.paymentContainer{
+    background-color: #314e52;
+    color: #E7E6E1;
+    border-radius: 15px 0 15px 0;
+    padding: 10px;
+    /* margin-left: 10px; */
+    margin: 0 0 30px 10px;
+}
+
+.optionLabel{
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.selector{
+    font-size: 1.3rem;
+    width: 90%;
+    border-radius: 10px;
+    outline: none;
+    color: #E7E6E1;
+    background-color: #314e52;
+}
+
+.buttonContainer button{
+    padding: 10px 10px;
+    font-size: 0.9rem;
+    border-radius: 10px 0 10px 0;
+    margin: 0 10px 20px 0;
+    outline: none;
+}
+
+.continueBtn{
+    color: #E7E6E1;
+    background-color: #314e52;
+}
+
+.checkoutBtn{
+    color: #314e52;
+    background-color: #E7E6E1;
+}

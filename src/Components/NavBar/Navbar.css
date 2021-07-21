@@ -1,0 +1,68 @@
+#navbar{
+    background-color: #e7e6e1;
+    border-bottom: 2px solid #cad1c7;
+    font-size: 1.2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#brandName{
+    color: #314e52;
+    font-size: 1.5rem;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+#link{
+    color: #314e52;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#cartLink{
+    color: #314e52;
+    font-size: 1.4rem;
+    margin: 0;
+    width: 50px;
+    padding: 0;
+    text-align: center;
+}
+
+#cartTitle{
+    font-size: 0.8rem;
+    margin: 0 3px;
+}
+
+
+#signInLink{
+    color: #314e52;
+    font-size: 1.4rem;
+    margin: 0;
+    width: 50px;
+    padding: 0;
+    text-align: center;
+}
+
+#signOutLink{
+    color: #314e52;
+    font-size: 1.4rem;
+    margin: 0;
+    width: 50px;
+    padding: 0;
+    text-align: center;
+}
+
+#signInTitle{
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+#signOutTitle{
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+#adminLoggedIn {
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+}

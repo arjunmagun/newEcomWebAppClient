@@ -1,0 +1,32 @@
+#carousel{
+    margin: 20px 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+.image{
+    height: 80vh;
+    object-fit: cover;
+    filter: blur(2px);
+}
+
+.carouselTitle{
+    font-size: 3rem;
+    margin-bottom: 180px;
+    color: #314e52;
+    letter-spacing: 2px;
+    border-top: 2px solid #314e52;
+    border-bottom: 2px solid #314e52;
+}
+
+.btnCarousel{
+    background-color: #28527a;
+    border: none;
+    outline: none;
+    padding: 8px 38px;
+}
+
+.btnCarousel:hover{
+    background-color: #dddddd;
+    color: #000000;
+}
